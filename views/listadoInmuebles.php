@@ -15,12 +15,12 @@ if(isset($option)){
   if($option == "getAllInm"){
 
     $curl = new ClienteWSInmuebles();
-    $res = $curl->getAllParsed($AGENCY_USER,$AGENCY_PASS);
+    $res = $curl->getAllParsed(AGENCY_USER,AGENCY_PASS);
 
   }else if($option == "getOwnInm"){
 
     $curl = new ClienteWSInmuebles();
-    $res = $curl->getOwnParsed($AGENCY_USER,$AGENCY_PASS);
+    $res = $curl->getOwnParsed(AGENCY_USER,AGENCY_PASS);
     
   }
 

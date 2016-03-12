@@ -15,7 +15,7 @@ if(isset($option)){
   if($option == "getAllProp"){
 
     $client = new ClienteWSPropietarios();
-    $propietariosJSON = $client->getAllParsed($AGENCY_USER,$AGENCY_PASS);
+    $propietariosJSON = $client->getAllParsed(AGENCY_USER,AGENCY_PASS);
 
   }
 
