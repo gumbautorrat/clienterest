@@ -14,7 +14,9 @@
     <ul>
   		<li><a href="views/listadoInmuebles.php">Ver Inmuebles</a></li>
   		<li><a href="views/listadoPropietarios.php">Ver Propietarios</a></li>
-	</ul>
+      <li><a href="views/comprobarAuthComerciales.php">Comprobar Autenticación Comerciales</a></li>
+      <li><a href="views/comprobarAuthAgencias.php">Comprobar Autenticación Agencias</a></li>
+	  </ul>
 
   </body>
 

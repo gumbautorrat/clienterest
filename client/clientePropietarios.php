@@ -1,6 +1,6 @@
 <?php
 
-require "clienteAutentication.php";
+require "clienteAuthAgencia.php";
 
 class ClienteWSPropietarios
 {
@@ -8,7 +8,7 @@ class ClienteWSPropietarios
     private $auth; //objeto que hace las peticiones de autentificacion
 
     function ClienteWSPropietarios(){
-        $this->auth = new ClienteWSAutentication();
+        $this->auth = new ClienteWSAuthAgencia();
     }
 
     /***************************************************************
